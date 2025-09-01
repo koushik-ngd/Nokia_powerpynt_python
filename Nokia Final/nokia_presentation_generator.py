@@ -98,7 +98,7 @@ class NokiaPresentationGenerator:
             Inches(8), Inches(6), Inches(4), Inches(1)
         )
         team_frame = team_box.text_frame
-        team_frame.text = "Presented by: [Team Name]"
+        team_frame.text = "Presented by: Koushik, Aayan and Muaaz."
         team_para = team_frame.paragraphs[0]
         team_para.font.size = Pt(16)
         team_para.font.color.rgb = NOKIA_WHITE
@@ -820,7 +820,7 @@ class NokiaPresentationGenerator:
             Inches(2), Inches(5.5), Inches(9), Inches(1.5)
         )
         contact_frame = contact_box.text_frame
-        contact_frame.text = "📧 contact@team.com\n🌐 github.com/team/nokia-analysis\n📱 @team_handle"
+        contact_frame.text = "🌐 github.com/koushik-ngd/\n"
         contact_para = contact_frame.paragraphs[0]
         contact_para.font.size = Pt(18)
         contact_para.font.color.rgb = NOKIA_WHITE
